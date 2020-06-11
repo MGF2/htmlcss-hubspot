@@ -15,7 +15,7 @@
   max-width: 1200px;
   /* background-color: #c1b29a; */
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px solid gray;
   height: 1000px;
   font-family: Avenir, "Helvetica Neue", Helvetica;
 }
@@ -32,9 +32,19 @@
  }
  header .bgpink {
    height: 450px;
-   background-color: #fff3ee;
+   /* background-color: #fff3ee; */
+
  }
 
+.bgpic {
+  height: 520px;
+  background-image: url(https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #fff3ee;
+  background-size: contain;
+  background-size: 73%;
+}
  .bgazzurro {
    height: 70px;
    background-color: #a8e9e2;
