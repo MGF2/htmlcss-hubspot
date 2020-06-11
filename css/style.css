@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  background-color: #c1b29a;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+ header .bglightblue {
+   height: 70px;
+   background-color: #f5f8fa;
+ }
+
+ header .bgwhite {
+   height: 70px;
+   background-color: white;
+ }
+ header .bgpink {
+   height: 450px;
+   background-color: #fff3ee;
+ }
+
+ .bgazzurro {
+   height: 70px;
+   background-color: #a8e9e2;
+   border-top:3px solid #33475c;
+   border-bottom: 3px solid #33475c;
+ }
