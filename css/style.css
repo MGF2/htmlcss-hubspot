@@ -12,8 +12,9 @@
 
 .container {
   width: 80%;
-  background-color: #c1b29a;
+  /* background-color: #c1b29a; */
   margin: 0 auto;
+  border: 1px solid black;
   height: 1000px;
 }
 
@@ -37,3 +38,28 @@
    border-top:3px solid #33475c;
    border-bottom: 3px solid #33475c;
  }
+
+ .logo {
+   float: left;
+   line-height: 70px;
+   padding-top: 10px;
+   height: 70px;
+ }
+
+nav ul li {
+  color: #33475b;
+  display: inline-block;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: AvenirNext, "Helvetica Neue", Helvetica;
+}
+
+nav {
+  float: right;
+  line-height: 70px;
+}
+
+ul li i {
+  padding-left: 10px;
+}
