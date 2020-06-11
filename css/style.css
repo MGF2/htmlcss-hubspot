@@ -95,4 +95,23 @@ ul li i {
 header .right i {
   color: #00a4bd;
   font-size: 16px;
+  font-weight: bold;
+}
+
+.right button {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ff7a59;
+}
+
+.right button:first-of-type {
+  color: #ff7a59;
+  margin: 0 15px;
+  background-color: #f5f8fa;
+  /* border-style: outset; */
+  /* border-color: #ff7a59; */
+}
+.right button:last-of-type {
+  color: white;
+  background-color: #ff7a59;
 }
