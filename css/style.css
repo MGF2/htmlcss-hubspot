@@ -188,6 +188,72 @@ main .rowf {
 }
 
 main .rows {
-  background-color: yellow;
+  border: 1px solid lightblue;
+  background-color: white;
   height: 300px;
+}
+.sideimg {
+  width: 370px;
+  /* border: 1px solid black; */
+  height: 100%;
+  text-align: center;
+  padding: 50px;
+  float: left;
+}
+.sideimg img {
+  width: 150px;
+}
+
+.sideimg button {
+ padding: 15px 40px;
+ color: white;
+ background-color:#ff7a59;
+ border-radius: 5px;
+ border-color: #ff7a59;
+}
+
+.sidetext {
+  color: #33475b;
+  padding-right: 50px;
+}
+
+.sidetext h3{
+  padding-top: 50px;
+  font-size: 22px;
+}
+
+.sidetext p:first-of-type {
+  padding-top: 25px;
+  font-size: 14px;
+}
+
+.phr p:last-of-type {
+  font-size: 15px;
+}
+
+.phr {
+  position: relative;
+}
+.phr p:last-of-type::after {
+   content: '';
+   position: absolute;
+   height: 8px;
+   margin-left: 30px;
+   border-bottom: 1px solid #e0e6ed;
+   width: 45%;
+   /* overflow-x: hidden; */
+}
+
+.list ul li{
+  display: inline-block;
+  font-size: 14px;
+}
+
+.list ul li i{
+  color: #ff7a59;
+  padding-right: 10px;
+}
+
+.list {
+  padding-top: 30px;
 }
