@@ -12,10 +12,12 @@
 
 .container {
   width: 80%;
+  max-width: 1200px;
   /* background-color: #c1b29a; */
   margin: 0 auto;
   border: 1px solid black;
   height: 1000px;
+  font-family: Avenir, "Helvetica Neue", Helvetica;
 }
 
  header .bglightblue {
@@ -114,4 +116,36 @@ header .right i {
 .right button:last-of-type {
   color: white;
   background-color: #ff7a59;
+}
+
+.jumbotron {
+  width: 47%;
+  height: 450px;
+  /* background-color: lightblue; */
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 46px;
+  color: #33475b;
+}
+
+.subt {
+  font-size: 15px;
+  color: #33475b;
+  margin: 30px 0;
+}
+
+.sub {
+  font-size: 14px;
+  color: #33475b;
+}
+
+.jumbotron button {
+  color: white;
+  background-color: #ff7a59;
+  border-radius: 5px;
+  padding: 15px 34px;
+  border: 1px solid #ff7a59;
+  margin-bottom: 30px;
 }
