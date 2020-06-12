@@ -488,3 +488,8 @@ section .riga {
   float: left;
   height: 200px;
 }
+
+.tabloghi .colbox img {
+  width: 100%;
+ 
+}
