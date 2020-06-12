@@ -257,3 +257,58 @@ main .rows {
 .list {
   padding-top: 30px;
 }
+
+.rows {
+  margin-bottom: 50px;
+}
+
+.rowt {
+  height: 550px;
+  background-color: pink;
+}
+.cardbox {
+  background-color: yellow;
+  height: 500px;
+}
+
+.card {
+  height: 500px;
+  float: left;
+  width: 325px;
+  background-color: white;
+  border: 1px solid lightblue;
+}
+
+.card:nth-child(2) {
+  margin: 0 51px;
+}
+
+.cardtext {
+  text-align: center;
+}
+
+.cardtexttop img {
+  width: 150px;
+}
+.cardtexttop h3 {
+  font-size: 22px;
+  padding: 15px 0;
+}
+.cardtexttop hr {
+  margin: 25px 0;
+}
+.cardtextbottom h4 {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.cardtextbottom ul {
+  list-style: none;
+  text-align: left;
+}
+.cardtextbottom ul li {
+ padding-bottom: 10px;
+}
+.cardtextbottom ul li i{
+  color: #ff7a59;
+}
