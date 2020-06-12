@@ -16,7 +16,6 @@
   /* background-color: #c1b29a; */
   margin: 0 auto;
   border: 1px solid gray;
-  height: 1000px;
   font-family: Avenir, "Helvetica Neue", Helvetica;
 }
 /* inizio header */
@@ -263,16 +262,16 @@ main .rows {
 }
 
 .rowt {
-  height: 550px;
+  height: 600px;
   background-color: pink;
 }
 .cardbox {
   background-color: yellow;
-  height: 500px;
+  height: 600px;
 }
 
 .card {
-  height: 500px;
+  height: 550px;
   float: left;
   width: 325px;
   background-color: white;
@@ -285,6 +284,7 @@ main .rows {
 
 .cardtext {
   text-align: center;
+  padding: 0 25px;
 }
 
 .cardtexttop img {
@@ -311,4 +311,14 @@ main .rows {
 }
 .cardtextbottom ul li i{
   color: #ff7a59;
+  padding-right: 10px;
+}
+
+.cardtextbottom button {
+ padding: 15px 30px;
+ color: white;
+ background-color:#ff7a59;
+ border-radius: 5px;
+ border-color: #ff7a59;
+ margin-top: 15px;
 }
