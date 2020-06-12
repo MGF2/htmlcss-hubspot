@@ -357,7 +357,7 @@ section .bggreen {
 .row2 {
   /* background-color: aqua; */
   height: 450px;
-  padding: 0 160px;
+  /* padding: 0 160px; */
 }
 
 .tab {
@@ -420,12 +420,14 @@ font-size: 14px;
 .colbox h2 {
   font-size: 40px;
   position: relative;
+  padding-right: 10px;
 }
 .colbox h2::after {
   content: "+";
   font-size: 15px;
   display: inline-block;
+  margin-bottom: 10px;
   position: absolute;
   top: 30%;
-  right: 20%;
+
 }
