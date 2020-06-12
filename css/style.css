@@ -383,6 +383,24 @@ section .bggreen {
   border-left: none;
   /* 1px solid #00a5bd; */
 }
+.rowtab2 {
+ height: 200px;
+ background-color: yellow;
+}
+
+.rowtab2 .coltab1 {
+  width: 25%;
+  background-color: green;
+  height: 200px;
+  float: left;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.rowtab2 .coltab1:first-of-type {
+  border-left: none;
+  /* 1px solid #00a5bd; */
+}
 
 .colbox {
   text-align: center;
