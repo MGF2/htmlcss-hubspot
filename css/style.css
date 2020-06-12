@@ -450,7 +450,7 @@ section .wbox {
 
 section .riga {
   height: 400px;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .text {
@@ -458,11 +458,32 @@ section .riga {
   width: 500px;
   border: 1px solid orange;
   float: left;
+  color: #33475b;
+  padding: 120px 120px;
+}
+
+.text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.text p {
+  font-size: 19px;
 }
 
 .tabloghi {
   height: 400px;
   width: 577px;
   border: 1px solid green;
+  float: left;
+}
+
+.rowlog {
+  height: 200px;
+  border: 1px solid blue;
+}
+
+.collog {
+  width: 25%;
+  border: 1px solid lightblue;
   float: left;
 }
