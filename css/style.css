@@ -163,7 +163,7 @@ h1 {
 
 main .bglight {
   background-color: #f5f8fa;
-  height: 1000px;
+  height: 1350px;
 }
 
 main .rowf {
@@ -324,4 +324,37 @@ main .rows {
  border-radius: 5px;
  border-color: #ff7a59;
  margin-top: 15px;
+}
+
+section .bggreen {
+  background: linear-gradient(to top right, #00a5bd 0%, #00bba6 90%);
+  height: 900px;
+  padding: 100px 0;
+}
+
+.boxtab {
+  background-color: lightblue;
+  height: 600px;
+  color: white;
+}
+
+.row1 {
+  height: 230px;
+  text-align: center;
+  margin: 0 160px;
+  background-color: pink;
+}
+
+.row1 h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.row1 p {
+  font-size: 16px;
+}
+
+.row2 {
+  background-color: aqua;
+  height: 350px;
 }
