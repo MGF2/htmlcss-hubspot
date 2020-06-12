@@ -383,3 +383,31 @@ section .bggreen {
   border-left: none;
   /* 1px solid #00a5bd; */
 }
+
+.colbox {
+  text-align: center;
+  color: white;
+  height: 200px;
+  padding: 50px 20px;
+}
+
+.colbox img {
+  padding-bottom: 10px;
+}
+
+.colbox p {
+font-size: 14px;
+}
+
+.colbox h2 {
+  font-size: 40px;
+  position: relative;
+}
+.colbox h2::after {
+  content: "+";
+  font-size: 15px;
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
