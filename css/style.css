@@ -473,23 +473,56 @@ section .riga {
 .tabloghi {
   height: 400px;
   width: 577px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   float: left;
 }
 
 .rowlog {
-  height: 200px;
-  border: 1px solid blue;
+  height: 170px;
 }
 
-.collog {
+.rowlog2 {
+  height: 230px;
+}
+
+.tabloghi .rowlog .collog {
   width: 25%;
-  border: 1px solid lightblue;
+  /* border: 1px solid lightblue; */
   float: left;
-  height: 200px;
+  height: 175px;
+  position: relative;
+}
+.rowlog2 .collog {
+  width: 25%;
+  /* border: 1px solid lightblue; */
+  float: left;
 }
 
 .tabloghi .colbox img {
   width: 100%;
- 
+}
+.tabloghi .rowlog2 .colbox2 img {
+  width: 100%;
+}
+.tabloghi .rowlog2 .colbox3 img {
+  width: 100%;
+}
+
+.tabloghi .rowlog .colbox {
+  position: absolute;
+  height: 80px;
+  text-align: center;
+  /* border: 1px solid yellow; */
+  bottom: 0;
+}
+
+.rowlog2 .colbox2 {
+  text-align: center;
+  height: 200px;
+  padding: 30px 10px ;
+}
+.rowlog2 .colbox3 {
+  text-align: center;
+  height: 200px;
+  padding: 40px 10px ;
 }
