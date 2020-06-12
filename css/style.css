@@ -15,7 +15,7 @@
   max-width: 1200px;
   /* background-color: #c1b29a; */
   margin: 0 auto;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   font-family: Avenir, "Helvetica Neue", Helvetica;
 }
 /* inizio header */
@@ -525,4 +525,40 @@ section .riga {
   text-align: center;
   height: 200px;
   padding: 40px 10px ;
+}
+.riga2 {
+  height: 700px;
+  border: 1px solid blue;
+}
+
+.sidebox {
+  width: 500px;
+  height: 700px;
+  padding-top: 150px;
+  float: left;
+}
+
+.sidebox h2 {
+  font-size: 36px;
+  color: #33475b;
+}
+
+.sidebox .subt {
+  font-size: 16px;
+  color: #33475b;
+  margin: 30px 0;
+}
+
+.sidebox .sub {
+  font-size: 15px;
+  color: #33475b;
+}
+
+.sidebox button {
+  color: white;
+  background-color: #ff7a59;
+  border-radius: 5px;
+  padding: 26px 48px;
+  border: 1px solid #ff7a59;
+  margin-bottom: 30px;
 }
