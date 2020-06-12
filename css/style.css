@@ -329,7 +329,7 @@ main .rows {
 section .bggreen {
   background: linear-gradient(to top right, #00a5bd 0%, #00bba6 90%);
   height: 900px;
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 .boxtab {
@@ -436,4 +436,33 @@ font-size: 14px;
   position: absolute;
   top: 30%;
 
+}
+
+main .bgwhite {
+  background-color: white;
+  height: 600px;
+}
+
+section .wbox {
+  height: 600px;
+  border-color: lightblue;
+}
+
+section .riga {
+  height: 400px;
+  background-color: aqua;
+}
+
+.text {
+  height: 400px;
+  width: 500px;
+  border: 1px solid orange;
+  float: left;
+}
+
+.tabloghi {
+  height: 400px;
+  width: 577px;
+  border: 1px solid green;
+  float: left;
 }
