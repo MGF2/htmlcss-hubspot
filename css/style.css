@@ -261,13 +261,13 @@ main .rows {
   margin-bottom: 50px;
 }
 
-.rowt {
-  height: 600px;
+/* .rowt {
+  height: 800px;
   background-color: pink;
-}
+} */
 .cardbox {
-  background-color: yellow;
-  height: 600px;
+  background-color: #f5f8fa;
+  height: 700px;
 }
 
 .card {
@@ -285,10 +285,13 @@ main .rows {
 .cardtext {
   text-align: center;
   padding: 0 25px;
+  color: #33475b;
 }
 
 .cardtexttop img {
-  width: 150px;
+  width: 160px;
+  height: 160px;
+  padding-top: 15px;
 }
 .cardtexttop h3 {
   font-size: 22px;
