@@ -401,6 +401,12 @@ section .bggreen {
 .rowtab2 .coltab1:first-of-type {
   border-left: none;
 }
+.rowtab2 .coltab1:last-of-type {
+  padding-top: 5px;
+}
+.rowtab2 h2.none::after {
+  content: none;
+}
 
 .colbox {
   text-align: center;
