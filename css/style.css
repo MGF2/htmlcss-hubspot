@@ -486,4 +486,5 @@ section .riga {
   width: 25%;
   border: 1px solid lightblue;
   float: left;
+  height: 200px;
 }
