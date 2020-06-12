@@ -333,8 +333,8 @@ section .bggreen {
 }
 
 .boxtab {
-  background-color: lightblue;
-  height: 600px;
+  /* background-color: lightblue; */
+  height: 650px;
   color: white;
 }
 
@@ -342,7 +342,7 @@ section .bggreen {
   height: 230px;
   text-align: center;
   margin: 0 160px;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .row1 h3 {
@@ -355,24 +355,24 @@ section .bggreen {
 }
 
 .row2 {
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 450px;
   padding: 0 160px;
 }
 
 .tab {
   height: 400px;
-  background-color: red;
+  /* background-color: red; */
   /* width: 50%; */
 }
 .rowtab1 {
  height: 200px;
- background-color: yellow;
+ /* background-color: yellow; */
 }
 
 .rowtab1 .coltab1 {
   width: 25%;
-  background-color: green;
+  /* background-color: green; */
   height: 200px;
   float: left;
   border-bottom: 1px solid white;
@@ -383,23 +383,23 @@ section .bggreen {
   border-left: none;
   /* 1px solid #00a5bd; */
 }
+
 .rowtab2 {
  height: 200px;
- background-color: yellow;
+ /* background-color: yellow; */
 }
 
 .rowtab2 .coltab1 {
   width: 25%;
-  background-color: green;
+  /* background-color: green; */
   height: 200px;
   float: left;
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
   border-left: 1px solid white;
 }
 
 .rowtab2 .coltab1:first-of-type {
   border-left: none;
-  /* 1px solid #00a5bd; */
 }
 
 .colbox {
