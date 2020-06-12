@@ -356,5 +356,30 @@ section .bggreen {
 
 .row2 {
   background-color: aqua;
-  height: 350px;
+  height: 450px;
+  padding: 0 160px;
+}
+
+.tab {
+  height: 400px;
+  background-color: red;
+  /* width: 50%; */
+}
+.rowtab1 {
+ height: 200px;
+ background-color: yellow;
+}
+
+.rowtab1 .coltab1 {
+  width: 25%;
+  background-color: green;
+  height: 200px;
+  float: left;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.rowtab1 .coltab1:first-of-type {
+  border-left: none;
+  /* 1px solid #00a5bd; */
 }
