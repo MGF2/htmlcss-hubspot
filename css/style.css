@@ -527,14 +527,14 @@ section .riga {
   padding: 40px 10px ;
 }
 .riga2 {
-  height: 650px;
+  height: 550px;
   border: 1px solid blue;
 }
 
 .sidebox {
   width: 500px;
   height: 700px;
-  padding-top: 150px;
+  padding-top: 55px;
   float: left;
 }
 
@@ -564,14 +564,14 @@ section .riga {
 }
 
 .sideimg2 {
-  height: 650px;
+  height: 550px;
   width: 576px;
   border: 1px solid yellow;
   float: left;
   text-align: right;
   object-fit: contain;
-  padding-top: 100px;
+  /* padding-top: 10px; */
 }
 .sideimg2 img {
- height: 78%;
+ height: 75%;
 }
