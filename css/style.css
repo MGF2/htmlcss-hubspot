@@ -583,16 +583,16 @@ footer .bgblu {
 
 .footbox {
   height: 600px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
  footer .footrow {
    height: 350px;
-   border: 1px solid green;
+   /* border: 1px solid green; */
  }
 
 .footrow .colf {
   width: 25%;
-  border: 1px solid lightblue;
+  /* border: 1px solid lightblue; */
   height: 350px;
   float: left;
   padding-top: 25px;
@@ -648,11 +648,46 @@ footer .bgblu {
   padding-top: 0;
 }
 
-/* .footrow .colf:first-of-type {
-margin-right: 20px;
-margin-left: 0;
+.frow2 {
+  text-align: center;
+  height: 100px;
+  border-bottom: 1px solid #7c98b6;
 }
-.footrow .colf:last-of-type {
-margin-right: 0;
-margin-left:20px;
-} */
+
+.frow2 a {
+  color: #cbd6e2;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 100px;
+  margin: 0 10px;
+}
+
+.logofoot {
+  height: 150px;
+  width: 200px;
+  /* border:1px solid pink; */
+  float: left;
+  color:#cbd6e2;
+  font-size: 13px;
+  padding-top: 35px;
+}
+
+.logofoot img {
+  margin-bottom:15px;
+}
+
+.side {
+  height: 150px;
+  width: 270px;
+  /* border:1px solid white; */
+  float: right;
+  text-align: center;
+  line-height: 150px;
+  font-size: 18px;
+}
+
+.side a {
+ text-decoration: none;
+ color: #cbd6e2;
+ margin: 0 15px;
+}
