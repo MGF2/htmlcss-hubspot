@@ -278,6 +278,11 @@ main .rows {
   border: 1px solid lightblue;
 }
 
+/* .card:hover {
+ box-shadow: 5px 10px 5px lightblue;
+ transition: 0.3s;
+} */
+
 .card:nth-child(2) {
   margin: 0 51px;
 }
@@ -611,6 +616,10 @@ footer .bgblu {
   text-decoration: none;
   display: block;
   padding-top: 20px;
+}
+
+.colf a:hover {
+  color: #0091ae;
 }
 
 .colf label {
