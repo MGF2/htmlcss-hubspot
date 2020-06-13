@@ -533,7 +533,7 @@ section .riga {
 
 .sidebox {
   width: 500px;
-  height: 700px;
+  height: 550px;
   padding-top: 55px;
   float: left;
 }
@@ -585,3 +585,39 @@ footer .bgblu {
   height: 600px;
   border: 1px solid white;
 }
+ footer .footrow {
+   height: 350px;
+   border: 1px solid green;
+ }
+
+.footrow .colf {
+  width: 25%;
+  border: 1px solid lightblue;
+  height: 350px;
+  float: left;
+  padding-top: 20px;
+  /* margin: 0 20px; */
+  /* display: inline-block; */
+}
+
+.colf h5 {
+  color: white;
+  font-size: 18px;
+
+}
+.colf a {
+  color: #cbd6e2;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding-top: 20px;
+}
+
+/* .footrow .colf:first-of-type {
+margin-right: 20px;
+margin-left: 0;
+}
+.footrow .colf:last-of-type {
+margin-right: 0;
+margin-left:20px;
+} */
