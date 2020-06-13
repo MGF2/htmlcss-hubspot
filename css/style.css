@@ -440,11 +440,11 @@ font-size: 14px;
 
 main .bgwhite {
   background-color: white;
-  height: 600px;
+  /* height: 950px; */
 }
 
 section .wbox {
-  height: 600px;
+  height: 950px;
   border-color: lightblue;
 }
 
@@ -456,7 +456,7 @@ section .riga {
 .text {
   height: 400px;
   width: 500px;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   float: left;
   color: #33475b;
   padding: 120px 120px;
@@ -528,7 +528,7 @@ section .riga {
 }
 .riga2 {
   height: 550px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .sidebox {
@@ -566,7 +566,7 @@ section .riga {
 .sideimg2 {
   height: 550px;
   width: 576px;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   float: left;
   text-align: right;
   object-fit: contain;
@@ -574,4 +574,14 @@ section .riga {
 }
 .sideimg2 img {
  height: 75%;
+}
+
+footer .bgblu {
+  height: 600px;
+  background-color: #33475b;
+}
+
+.footbox {
+  height: 600px;
+  border: 1px solid white;
 }
