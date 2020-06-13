@@ -527,7 +527,7 @@ section .riga {
   padding: 40px 10px ;
 }
 .riga2 {
-  height: 700px;
+  height: 650px;
   border: 1px solid blue;
 }
 
@@ -561,4 +561,17 @@ section .riga {
   padding: 26px 48px;
   border: 1px solid #ff7a59;
   margin-bottom: 30px;
+}
+
+.sideimg2 {
+  height: 650px;
+  width: 576px;
+  border: 1px solid yellow;
+  float: left;
+  text-align: right;
+  object-fit: contain;
+  padding-top: 100px;
+}
+.sideimg2 img {
+ height: 78%;
 }
