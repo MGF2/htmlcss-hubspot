@@ -631,6 +631,22 @@ footer .bgblu {
   background-color: white;
   border: white;
 }
+.colf i {
+  color: #cbd6e2;
+  font-size: 20px;
+  padding-top: 27px;
+  margin-right: 26px;
+}
+
+.colf i:last-of-type {
+  margin-right: 0;
+}
+
+.colf label i {
+  color: #cbd6e2;
+  font-size: 20px;
+  padding-top: 0;
+}
 
 /* .footrow .colf:first-of-type {
 margin-right: 20px;
