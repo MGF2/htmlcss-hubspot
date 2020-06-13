@@ -19,6 +19,17 @@
   font-family: Avenir, "Helvetica Neue", Helvetica;
 }
 /* inizio header */
+ .bglightbluefix {
+   height: 70px;
+   background-color: #f5f8fa;
+   border-bottom: 2px solid #607D8B;
+   position: fixed;
+   top:0;
+   right: 0;
+   left: 0;
+   z-index: 2;
+ }
+
  header .bglightblue {
    height: 70px;
    background-color: #f5f8fa;
