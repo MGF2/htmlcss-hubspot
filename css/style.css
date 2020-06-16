@@ -94,7 +94,7 @@ nav {
   margin-right: 15px;
 }
 
-.navbar ul:hover .dropdown {
+.navbar ul li:first-child:hover .dropdown {
    display: block;
  }
 
@@ -104,7 +104,7 @@ nav {
   width: 120px;
   border: 1px solid #cbd6e2;
   position: absolute;
-  margin-top: 15px;
+  margin-top: 13px;
   display: none;
 }
 
@@ -115,6 +115,10 @@ nav {
   color: #33475b;
   padding-left: 20px;
   padding-top: 15px;
+}
+
+.navbar ol li a:hover{
+  background-color: #cbd6e2;
 }
 
 .navbar ul li {
