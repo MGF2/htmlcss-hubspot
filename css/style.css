@@ -78,12 +78,16 @@ nav ul li {
   font-family: AvenirNext, "Helvetica Neue", Helvetica;
 }
 
+nav ul li i{
+  padding-left: 15px;
+}
+
 nav {
   float: right;
   line-height: 70px;
 }
 
-ul li i:last-of-type {
+.navbar ul li i:last-of-type {
   padding-left: 15px;
   padding-right: 16px;
   border-right: 2px solid #33475b;
@@ -136,7 +140,8 @@ ul li i:last-of-type {
   display: inline-block;
   line-height: 70px;
 }
-header .right i {
+
+ .right i {
   color: #00a4bd;
   font-size: 16px;
   font-weight: bold;
