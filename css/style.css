@@ -83,8 +83,8 @@ nav {
   line-height: 70px;
 }
 
-ul li i {
-  padding-left: 10px;
+ul li i:last-of-type {
+  padding-left: 15px;
 }
 
 .navbar ul li {
