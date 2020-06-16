@@ -85,28 +85,50 @@ nav {
 
 ul li i:last-of-type {
   padding-left: 15px;
+  padding-right: 16px;
+  border-right: 2px solid #33475b;
+  margin-right: 15px;
+}
+
+.navbar ul:hover .dropdown {
+   display: block;
+ }
+
+.navbar ol {
+  background-color: white;
+  height: 215px;
+  width: 120px;
+  border: 1px solid #cbd6e2;
+  position: absolute;
+  margin-top: 15px;
+  display: none;
+}
+
+.navbar ol li a{
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  color: #33475b;
+  padding-left: 20px;
+  padding-top: 15px;
 }
 
 .navbar ul li {
   display: inline-block;
   font-size: 16px;
   color: #33475b;
-  line-height: 70px;
+  /* line-height: 70px; */
   font-family: Avenir, "Helvetica Neue", Helvetica;
 }
-.navbar ul li:last-child {
-  padding-left: 15px;
-}
+
 .navbar ul li i:first-child {
   padding-right: 5px;
 }
-.navbar ul li i:last-child {
-  padding-left: 5px;
-  border-right: 2px solid #33475b;
-  padding-right: 20px;
-}
+
 .navbar ul {
   float: left;
+  /* line-height: 70px; */
+  margin-top: 27px;
 }
 
 .navbar .right {
